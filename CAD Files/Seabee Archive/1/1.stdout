@@ -1,0 +1,1084 @@
+Computer name:	MICHAEL-PC
+Operating system:	Windows 7 Service Pack 1 (Build 7601)
+CPU:	GenuineIntel, Stepping ID = 7, Model = 10, Family = 6, Extended model = 2, MMX SSE SSE2 Hyper-Threading Technology SSE3
+CPU Brand String:        Intel(R) Core(TM) i7-2600K CPU @ 3.40GHz
+Cache Line Size = 64,  L2 Associativity = 6,  Cache Size = 256K
+Number of cores = 8
+OpenMP enabled (spec=200203). max_threads = 8, num_procs = 8, num_threads = 8.
+*** Using 8 thread(s)
+
+SolidWorks 2011 SP2.0
+C:\Users\Michael\Dropbox\Robotics\Seabee 4\1\1.fld
+Configuration name:	Default
+/*******************************************/
+/*         Project Summary                 */
+/*******************************************/
+Problem type:						external
+Result resolution:					5
+Minimum gap size:					0.0047625
+Minimum wall thickness:				0.0047625
+Manual refinement:					Off
+Solid refinement:					Off
+Fluid substances count				1
+
+		Advanced capabilities
+Heat transfer						On
+Transient						Off
+Gravitation						Off
+Laminar flow						Off
+Compressibility					Off
+Number of solid substances			0
+Roughness:						0
+
+************************************************
+
+Geometry database loading ...OK
+
+FacesDB serialize (C:\Users\Michael\Dropbox\Robotics\Seabee 4\1\1.fbd)...OK.
+Flow Simulation 2011 2.0 x64 / 1525 / SOLVER ver. solver-1.6.5.4+ts.tec1.0 
+BRANCH: efd_10_1.1525_01.12.2010
+
+Loading Media Properties DLL ...
+Loaded: C:\Program Files\SolidWorks Corp\SolidWorks Flow Simulation\BINCFW\as_media.dll
+
+
+
+STATIONARY
+STATIONARY IN SOLID
+
+
+MONOTONIC V
+LAM-BREMHORST K-EPSILON TURBULENCE MODEL
+EXTERNAL=0  CHT=0  POROUS=0  FROZEN=0  P_REF=1  RADIATION=0  HVAC_COMFORT_PARAMETERS=0
+
+/-----------------------------------------------------------/
+BCF CHECKSUM DATA:
+
+FACE_A Area Sum:   G.Fluid        320.0053061394187900
+FACE_A Area Sum:   G.Solid        0.1100251316332884
+FACE_W Area Sum:                  8.9396858704063522
+FACE_W Nb   Sum:                  129692
+AV Max Disbalance: G.Fluid        1.27369e-16 (cid=172227, cvid=171927)
+AV Max Disbalance: G.Solid        7.40352e-15 (cid=183449, cvid=361860)
+BRICK-CV Volume Disbalance:       1.62283e-16 (cid=171933)
+/-----------------------------------------------------------/
+
+
+/-----------------------------------------------------------/
+MESHER TOPOLOGY DATA:
+
+BRICKS: Total                 361020
+BRICKS: 1-CV                  359276
+BRICKS: 2-CV                  1744
+BRICKS: Bad                   0
+
+CV:     G.Total               362764
+CV:     G.Fluid               360428
+CV:     G.Solid               2336
+
+CV:     G.Fluid Thin Profile  0
+CV:     G.Solid Thin Profile  0
+
+FACE_A: G.Fluid          (af) 1066758 (partially opened 3662)
+FACE_A: G.Solid          (as) 6482 (partially opened 3662,defined by fluid 3662)
+
+FACE_W: G.Total                 32344       Brick/Bound U-Shaped    T-head      T-Leg
+FACE_W: G.Fluid/Solid    (fs_g) 1744        0           0           0           0           
+FACE_W: G.Fluid/Fluid    (ff_g) 0           0           0           0           0           
+FACE_W: G.Solid/Solid    (ss_g) 0           0           0           0           0           
+FACE_W: G.Fluid/External (fe_g) 30600
+FACE_W: G.Solid/External (se_g) 0
+
+MEMORY: Total                   99.297 MB
+MEMORY: Per Brick               0.282 KB
+/-----------------------------------------------------------/
+
+AV max fa count:                  12
+AV max fw count:                  3
+read_bcf_mesh took 0.64 sec.	Total read FLD took 0.67 sec.
+Cells: Total=361020,  Gas=358684,  Solid=592, Partial+Irregular=1744 / Irregular=0
+
+IT   : 0  
+
+/***************Mesh info************************/
+Mesh dimensions:
+				I[0 ]=60
+				I[1 ]=90
+				I[2 ]=66
+Solver refinement level	I[47]=0
+
+Optimize thin walls resolution   On
+Thin walls parcon                On
+
+Comp. domain size:
+				a[0  ]=-0.625654
+				a[1  ]=0.625654
+				a[2  ]=-0.536754
+				a[3  ]=0.541516
+				a[4  ]=-0.663754
+				a[5  ]=0.663754
+Wall thickness		a[231]=0
+Gap size			a[232]=1
+/************************************************/
+/************************************************/
+Preparing for calculations started at	16.6.2012	18:6:16
+slv_max_lev=1
+/-----------------------------------------------------------/
+I[7]=0
+MEGA-CV structure is switched on.
+MEGA-CV technology in fluid is switched on.
+/-----------------------------------------------------------/
+Mega-cv constructor for fluid...
+	 0 av's is treated as thin
+Relative size generator (threshold = 0.05)...OK
+	 56 mega-cv's generated
+	 0 mega-cv's removed
+Convert clusters:
+	 56 mega-cv's total
+	AV number:         360428
+	CV number:         360372
+	FACE_A max number: 12
+	FACE_W max number: 3
+/-----------------------------------------------------------/
+/-----------------------------------------------------------/
+Mega-cv constructor for solid...
+	AV number:         0
+	CV number:         0
+	FACE_A max number: 0
+	FACE_W max number: 0
+/-----------------------------------------------------------/
+FLUID SUBDOMAIN 0
+LC =0 LAMTURB=1 NONNEWTON=0  STEAM=0  CAVITATION=0 IT=6 NT=2 NC=1 U_DIM_EXT=14
+Memory allocation for matrix entries in solver is block-wise,
+( size of block = 1048576 bytes (1Mb) ).
+Collect Body BC...OK
+Collect Fans...OK
+Collect Surface Sources...OK
+Collect Contact resistance BC...OK
+Collect Perforated plates BC...OK
+Collect Electric contact BC...OK
+Collect Surface Goals...
+Received 0 wall face(s) and 0 virtual face(s)...
+ OK
+
+Total CPU time 1 s
+Collect RhoV2...OK
+Collect Unused surface area...OK
+MWS estimation...
+Subdomain number = 0
+
+V_indata_max=0, V3_max=0, V4_max=0, MWS=0.25
+Ref. Pressure = 101325
+OK
+
+FacesDB serialize (C:\Users\Michael\Dropbox\Robotics\Seabee 4\1\1.fbd)...OK.
+
+There is 1 isolated subdomain in fluid:
+subdomain 0: INCOMPRESSIBLE,   MONOTONIC T, 360372 control volumes
+
+/-----------------------------------------------------------/
+SOLVER TOPOLOGY DATA:
+
+BRICKS: |level1| sum         3992
+
+CV:     Total               360372
+CV:     Fluid               360372
+CV:     Solid               0
+
+CV:     G.Fluid Thin Profile  0
+CV:     G.Solid Thin Profile  0
+
+FACE_A: Fluid          (af) 1066758
+FACE_A: Max number placed on a brick-face in cv: 4
+FACE_A: Solid          (as) 6482
+
+FACE_W: Total               32344
+FACE_W: Fluid/Solid    (fs) 1744
+FACE_W: Fluid/Fluid    (ff) 0
+FACE_W: Solid/Solid    (ss) 0
+FACE_W: Opening BC               (fo)  30600
+FACE_W: Fluid/Bound              (fw)  32344
+FACE_W: Solid/Bound              (sw)  0
+FACE_W: Fluid/Bound Real Wall    (frw) 1744
+FACE_W: Solid/Bound Real Wall    (srw) 0
+FACE_W: Max number placed in cv: 3
+/-----------------------------------------------------------/
+
+Calculate gap size:  OK(CPU=0.024s)
+Calculate wall distance: N of points: Fluid Cv=360428, Fluid Real Wall Faces(WType<0)=1744 OK(CPU=7.462s)
+ nsd=0: Extern_Subdom (=1) Averaged density in External BC=997.562
+
+
+/-----------------------------------------------------------/
+Diagonal nb-faces collector...
+		Real wall-faces number   1744
+	NB-faces conservator...
+		Total occurances         64
+		For bb-faces             0
+		For u-faces              0
+/-----------------------------------------------------------/
+Estimated FLD size=44.84 Mb
+Writing FLD file "C:\Users\Michael\Dropbox\Robotics\Seabee 4\1\r_000000.fld"...
+write_bcf_mesh took 0.80 sec.	Total save FLD took 0.96 sec.
+real FLD size=26.23 Mb
+OK
+21 parameter(s) in preview list of parameters
+Calculation started at	16.6.2012	18:6:27
+Total CPU time 10 s
+NPROC = 8
+//-------------------------Isotermic task-------------------//
+//-------------------------Fast mass flow--------------------//
+================== Tstep=0 ===================
+Number of fluid cvs containing fw-faces with Real Wall (CHT,non-CHT) BCs: 1720
+Number of fluid cvs containing fw-faces with Real Wall  CHT          BC : 0
+Min,Max T(old): subd0: min(0)=293.20000000      , max(0)=293.20000000      
+Min,Max P(old): subd0: min(0)=101324.99900244   , max(0)=101324.99900244   
+MinMax Rho old: subd0: min(0)=997.56173933      , max(0)=997.56173933      
+Min,Max V(old): subd0: min(7)=0, max(0)=1.73628e-43
+Min,Max K(old): subd0: min(0)=1.5e-06, max(0)=1.5e-06
+Min,Max E(old): subd0: min(0)=6.33846e-06, max(0)=6.33846e-06
+MinMax Cp:
+		subd0: min(0)=4184.37760000     ,	max(0)=4184.37760000     
+MinMax Laminar Viscosity:
+		subd0: min(0)=0.00100051        ,	max(0)=0.00100051        
+MinMax Speed of Sound:
+		subd0: min(0)=0.00000000        ,	max(0)=0.00000000        
+MinMax Fmju(turb):
+		subd0: min(83650)=0.00097119        ,	max(0)=1.00000000        
+MinMax K(turb):
+		subd0: min(0)=0.00149634        ,	max(0)=0.00149634        
+MinMax E/Omega(turb):
+		subd0: min(0)=0.00632301        ,	max(0)=0.00632301        
+MP-DISTRIBUTOR: initialization...
+count of severed links on 31 level = 318610 of 2133236, average number of elements in portrait = 5
+count of severed links on 30 level = 482 of 419796, average number of elements in portrait = 5
+count of severed links on 29 level = 0 of 34432, average number of elements in portrait = 5
+count of severed links on 28 level = 0 of 4990, average number of elements in portrait = 5
+count of severed links on 27 level = 0 of 670, average number of elements in portrait = 4
+count of severed links on 26 level = 0 of 130, average number of elements in portrait = 3
+count of severed links on 25 level = 0 of 66, average number of elements in portrait = 2
+count of severed links on 24 level = 0 of 40, average number of elements in portrait = 1
+count of severed links on 23 level = 0 of 28, average number of elements in portrait = 1
+count of severed links on 22 level = 0 of 8, average number of elements in portrait = 1
+OK.
++----------------------------------------------------------+
+| MP-DISTRIBUTOR for fluid
++----------------------------------------------------------+
+| mg-level |    cv     |   ratio   | shared fa | shared fw |
++----------+-----------+-----------+-----------+-----------+
+|    31    |    360372 | 0.00      |     27567 |         0 |
+|    30    |     70240 | 5.13      |         0 |         0 |
+|    29    |      6055 | 11.60     |         0 |         0 |
+|    28    |       929 | 6.52      |         0 |         0 |
+|    27    |       150 | 6.19      |         0 |         0 |
+|    26    |        42 | 3.57      |         0 |         0 |
+|    25    |        28 | 1.50      |         0 |         0 |
+|    24    |        21 | 1.33      |         0 |         0 |
+|    23    |        15 | 1.40      |         0 |         0 |
+|    22    |         5 | 3.00      |         0 |         0 |
+|    21    |         1 | 5.00      |         0 |         0 |
++----------+-----------+-----------+-----------+-----------+-----------------+
+| mg-level | subdomain | prcssr(r) | prcssr(v) | mp-level  |      cv         |
++----------+-----------+-----------+-----------+-----------+-----------------+
+|    31    |         0 |         0 |         0 |         0 |     33974       |
+|    31    |         0 |         0 |         0 |         1 |     10752       |
+|    31    |         0 |         0 |         0 |         2 |       320       |
+|    31    |         0 |         0 |         0 |         3 |         0       |
+|    31    |         0 |         1 |         1 |         4 |     34540       |
+|    31    |         0 |         1 |         1 |         5 |     10496       |
+|    31    |         0 |         1 |         1 |         6 |        10       |
+|    31    |         0 |         1 |         1 |         7 |         0       |
+|    31    |         0 |         2 |         2 |         8 |     34316       |
+|    31    |         0 |         2 |         2 |         9 |      9916       |
+|    31    |         0 |         2 |         2 |        10 |       814       |
+|    31    |         0 |         2 |         2 |        11 |         0       |
+|    31    |         0 |         3 |         3 |        12 |     33286       |
+|    31    |         0 |         3 |         3 |        13 |     11664       |
+|    31    |         0 |         3 |         3 |        14 |        96       |
+|    31    |         0 |         3 |         3 |        15 |         0       |
+|    31    |         0 |         4 |         4 |        16 |     33971       |
+|    31    |         0 |         4 |         4 |        17 |     10665       |
+|    31    |         0 |         4 |         4 |        18 |       406       |
+|    31    |         0 |         4 |         4 |        19 |         4       |
+|    31    |         0 |         5 |         5 |        20 |     35148       |
+|    31    |         0 |         5 |         5 |        21 |      9766       |
+|    31    |         0 |         5 |         5 |        22 |       132       |
+|    31    |         0 |         5 |         5 |        23 |         0       |
+|    31    |         0 |         6 |         6 |        24 |     33304       |
+|    31    |         0 |         6 |         6 |        25 |     11422       |
+|    31    |         0 |         6 |         6 |        26 |       320       |
+|    31    |         0 |         6 |         6 |        27 |         0       |
+|    31    |         0 |         7 |         7 |        28 |     34088       |
+|    31    |         0 |         7 |         7 |        29 |     10642       |
+|    31    |         0 |         7 |         7 |        30 |       320       |
+|    31    |         0 |         7 |         7 |        31 |         0       |
++----------+-----------+-----------+-----------+-----------+-----------------+
+|    30    |         0 |         0 |         0 |         0 |      7693       |
+|    30    |         0 |         0 |         0 |         1 |      1080       |
+|    30    |         0 |         0 |         0 |         2 |         7       |
+|    30    |         0 |         0 |         0 |         3 |         0       |
+|    30    |         0 |         1 |         1 |         4 |      7693       |
+|    30    |         0 |         1 |         1 |         5 |      1072       |
+|    30    |         0 |         1 |         1 |         6 |        15       |
+|    30    |         0 |         1 |         1 |         7 |         0       |
+|    30    |         0 |         2 |         2 |         8 |      7674       |
+|    30    |         0 |         2 |         2 |         9 |      1105       |
+|    30    |         0 |         2 |         2 |        10 |         0       |
+|    30    |         0 |         2 |         2 |        11 |         1       |
+|    30    |         0 |         3 |         3 |        12 |      7711       |
+|    30    |         0 |         3 |         3 |        13 |      1062       |
+|    30    |         0 |         3 |         3 |        14 |         7       |
+|    30    |         0 |         3 |         3 |        15 |         0       |
+|    30    |         0 |         4 |         4 |        16 |      7700       |
+|    30    |         0 |         4 |         4 |        17 |      1074       |
+|    30    |         0 |         4 |         4 |        18 |         6       |
+|    30    |         0 |         4 |         4 |        19 |         0       |
+|    30    |         0 |         5 |         5 |        20 |      7549       |
+|    30    |         0 |         5 |         5 |        21 |      1213       |
+|    30    |         0 |         5 |         5 |        22 |        18       |
+|    30    |         0 |         5 |         5 |        23 |         0       |
+|    30    |         0 |         6 |         6 |        24 |      7895       |
+|    30    |         0 |         6 |         6 |        25 |       878       |
+|    30    |         0 |         6 |         6 |        26 |         7       |
+|    30    |         0 |         6 |         6 |        27 |         0       |
+|    30    |         0 |         7 |         7 |        28 |      7711       |
+|    30    |         0 |         7 |         7 |        29 |      1068       |
+|    30    |         0 |         7 |         7 |        30 |         1       |
+|    30    |         0 |         7 |         7 |        31 |         0       |
++----------+-----------+-----------+-----------+-----------+-----------------+
+|    29    |         0 |         0 |         0 |         0 |      6055       |
+|    29    |         0 |         1 |         1 |         1 |         0       |
+|    29    |         0 |         2 |         2 |         2 |         0       |
+|    29    |         0 |         3 |         3 |         3 |         0       |
+|    29    |         0 |         4 |         4 |         4 |         0       |
+|    29    |         0 |         5 |         5 |         5 |         0       |
+|    29    |         0 |         6 |         6 |         6 |         0       |
+|    29    |         0 |         7 |         7 |         7 |         0       |
++----------+-----------+-----------+-----------+-----------+-----------------+
+|    28    |         0 |         0 |         0 |         0 |       929       |
+|    28    |         0 |         1 |         1 |         1 |         0       |
+|    28    |         0 |         2 |         2 |         2 |         0       |
+|    28    |         0 |         3 |         3 |         3 |         0       |
+|    28    |         0 |         4 |         4 |         4 |         0       |
+|    28    |         0 |         5 |         5 |         5 |         0       |
+|    28    |         0 |         6 |         6 |         6 |         0       |
+|    28    |         0 |         7 |         7 |         7 |         0       |
++----------+-----------+-----------+-----------+-----------+-----------------+
+|    27    |         0 |         0 |         0 |         0 |       150       |
+|    27    |         0 |         1 |         1 |         1 |         0       |
+|    27    |         0 |         2 |         2 |         2 |         0       |
+|    27    |         0 |         3 |         3 |         3 |         0       |
+|    27    |         0 |         4 |         4 |         4 |         0       |
+|    27    |         0 |         5 |         5 |         5 |         0       |
+|    27    |         0 |         6 |         6 |         6 |         0       |
+|    27    |         0 |         7 |         7 |         7 |         0       |
++----------+-----------+-----------+-----------+-----------+-----------------+
+|    26    |         0 |         0 |         0 |         0 |        42       |
+|    26    |         0 |         1 |         1 |         1 |         0       |
+|    26    |         0 |         2 |         2 |         2 |         0       |
+|    26    |         0 |         3 |         3 |         3 |         0       |
+|    26    |         0 |         4 |         4 |         4 |         0       |
+|    26    |         0 |         5 |         5 |         5 |         0       |
+|    26    |         0 |         6 |         6 |         6 |         0       |
+|    26    |         0 |         7 |         7 |         7 |         0       |
++----------+-----------+-----------+-----------+-----------+-----------------+
+|    25    |         0 |         0 |         0 |         0 |        28       |
+|    25    |         0 |         1 |         1 |         1 |         0       |
+|    25    |         0 |         2 |         2 |         2 |         0       |
+|    25    |         0 |         3 |         3 |         3 |         0       |
+|    25    |         0 |         4 |         4 |         4 |         0       |
+|    25    |         0 |         5 |         5 |         5 |         0       |
+|    25    |         0 |         6 |         6 |         6 |         0       |
+|    25    |         0 |         7 |         7 |         7 |         0       |
++----------+-----------+-----------+-----------+-----------+-----------------+
+|    24    |         0 |         0 |         0 |         0 |        21       |
+|    24    |         0 |         1 |         1 |         1 |         0       |
+|    24    |         0 |         2 |         2 |         2 |         0       |
+|    24    |         0 |         3 |         3 |         3 |         0       |
+|    24    |         0 |         4 |         4 |         4 |         0       |
+|    24    |         0 |         5 |         5 |         5 |         0       |
+|    24    |         0 |         6 |         6 |         6 |         0       |
+|    24    |         0 |         7 |         7 |         7 |         0       |
++----------+-----------+-----------+-----------+-----------+-----------------+
+|    23    |         0 |         0 |         0 |         0 |        15       |
+|    23    |         0 |         1 |         1 |         1 |         0       |
+|    23    |         0 |         2 |         2 |         2 |         0       |
+|    23    |         0 |         3 |         3 |         3 |         0       |
+|    23    |         0 |         4 |         4 |         4 |         0       |
+|    23    |         0 |         5 |         5 |         5 |         0       |
+|    23    |         0 |         6 |         6 |         6 |         0       |
+|    23    |         0 |         7 |         7 |         7 |         0       |
++----------+-----------+-----------+-----------+-----------+-----------------+
+|    22    |         0 |         0 |         0 |         0 |         5       |
+|    22    |         0 |         1 |         1 |         1 |         0       |
+|    22    |         0 |         2 |         2 |         2 |         0       |
+|    22    |         0 |         3 |         3 |         3 |         0       |
+|    22    |         0 |         4 |         4 |         4 |         0       |
+|    22    |         0 |         5 |         5 |         5 |         0       |
+|    22    |         0 |         6 |         6 |         6 |         0       |
+|    22    |         0 |         7 |         7 |         7 |         0       |
++----------+-----------+-----------+-----------+-----------+-----------------+
+|    21    |         0 |         0 |         0 |         0 |         1       |
+|    21    |         0 |         1 |         1 |         1 |         0       |
+|    21    |         0 |         2 |         2 |         2 |         0       |
+|    21    |         0 |         3 |         3 |         3 |         0       |
+|    21    |         0 |         4 |         4 |         4 |         0       |
+|    21    |         0 |         5 |         5 |         5 |         0       |
+|    21    |         0 |         6 |         6 |         6 |         0       |
+|    21    |         0 |         7 |         7 |         7 |         0       |
++----------+-----------+-----------+-----------+-----------+-----------------+
+
+Slit, small, triple, mix.plane cv's: 0, 0, 0, 0 cv's are detected;
+Slit, small, triple cv's: 0 a-faces are marked for employing 1st order approximations.
+Slit, small, triple cv's: 0 a-faces are marked for employing bricks sizes.
+LOG: number of a-faces between av's: 1066758
+LOG: number of a-faces between cv's: 1066702
+LOG: Min_cv_size=0.1
+LOG: Wall_Bounded_Subdom[0]=0 
+LOG: Closed_Subdom[0]=0 
+LOG: EQN_3M[0]=1 
+
+Distribution of fw-faces bounding fluid:
+  Ideal Wall:   number=0, total S=0.0000000000000000 
+
+   Real Wall:   number=1744, total S=0.0561257890309887 
+    Openings:   number=30600, total S=8.8835600813753341 (excluding mp-faces)
+          mp:   number=0, total S=0.0000000000000000 
+dt: min dt/dtG(nCV=83500)=0.26 , max dt/dtG(nCV=258950)=14.6   , dtG=0.00166406
+dt: min alphaC=1,  min alphaD=50,  min alphaT=1e+40
+LOG: Neumann[nsd=0]=0
+
+MI: preparing mg-levels...OK.
++---+--INPR--------+--------------+--------------+------+----+-+-+------+
+|sd | Initial res  | Target res   | Final res    |Visits|Iter|R|F|Status|
++---+--------------+--------------+--------------+------+----+-+-+------+
+|  0|  2.342218e-46|  2.342218e-46|  5.384609e-46|     2|   3|0|y|  OK  |
++---+--------------+--------------+--------------+------+----+-+-+------+
+LOG: FACES NEAR SYMMETRY BC: number_of_face_ns=0
+MI: preparing mg-levels...OK.
++---+--BG----------+--------------+--------------+------+----+-+-+------+
+|sd | Initial res  | Target res   | Final res    |Visits|Iter|R|F|Status|
++---+--------------+--------------+--------------+------+----+-+-+------+
+|  0|  5.372569e-83|  5.372569e-83|  1.078682e-85|     6|  15|0|y|  OK  |
++---+--------------+--------------+--------------+------+----+-+-+------+
+LOG: Neumann[nsd=0]=0
+LOG: Define initial conditions for momentum in !LC & !ROTATION subdomain.
+dt: min dt/dtG(nCV=83500)=0.26 , max dt/dtG(nCV=258950)=14.6   , dtG=0.00166406
+dt: min alphaC=1,  min alphaD=50,  min alphaT=1e+40
+Estimated FLD size=44.84 Mb
+OK
+LOG: number of a-faces with weighted approximations: 15.4795 percent
+LOG: Rate of a-faces corrected to CUp1st: 2.22304 %
+MP-DISTRIBUTOR: building cv ordering...ok.
+MP-DISTRIBUTOR: building face-ordering...ok.
+Pm[rho_old*vel_new] is used to calculate rhs_DvGr and Mf[]
+Convolutions: 0.0502457% a-faces are skipped (due to sharp bend).
+Conv_fw[] is skipped for 30600 w-faces
+number of critic points=	648
+number of edge points=	1096
+number of arranged faces NF_Strmline=	1744
+*******	alp_u_min(547)=0.000165094	alp_u_max(443)=0.0116615	alp_t_min(880)=0.3591	alp_t_max(880)=0.3591	BL_s_min(880)=0	BL_s_max(880)=0
+LOG: numb_of_convergent=31, numb_of_divergent=57
+Residual of BG = Div(rho*u^k): 
+sd[0](LC=0): L2=3.28433e-43, C[349320]=1.72555e-44
+MI: preparing mg-levels...OK.
++---+--3M----------+--------------+--------------+------+----+-+-+------+
+|sd | Initial res  | Target res   | Final res    |Visits|Iter|R|F|Status|
++---+--------------+--------------+--------------+------+----+-+-+------+
+|  0|  2.729081e-50|  2.729081e-50|  1.166652e-70|     2|   3|0|y|  OK  |
++---+--------------+--------------+--------------+------+----+-+-+------+
+Min,Max V(new): subd0: min(3)=7.96884e-33, max(353732)=2.68285e-27
+
+NUMBER OF INNER ITERATIONS = 1
+
+Matrix DvGr: statistics on corrections of a-face approximations
+             min alpha==0.123233 (i=355329)
+                    alpha < 0.2 : 0.265397 per cent
+             0.2 <= alpha < 0.4 : 10.6181         
+             0.4 <= alpha < 0.6 : 3.48035         
+             0.6 <= alpha < 0.8 : 0.998686         
+             0.8 <= alpha       : 0.600168         
+             without correction : 84.0372         
+
+DvGr: iter=0, rhs=(rho^k-rho)*dV/dt + Dv(rho*u^k), max|rhs|=    6.1011825728e-27, ncv=356131
+MI: preparing mg-levels...OK.
++---+--DVGR--------+--------------+--------------+------+----+-+-+------+
+|sd | Initial res  | Target res   | Final res    |Visits|Iter|R|F|Status|
++---+--------------+--------------+--------------+------+----+-+-+------+
+|  0|  1.160088e-49|  1.160088e-49|  1.651778e-54|     6|  15|0|y|  OK  |
++---+--------------+--------------+--------------+------+----+-+-+------+
+PRESSURE SOLVER: sum_C_dp=0
+dR-REGULARIZATOR: npar=5, count_dR=0
+Creating subunions for CHT...	1 subunions created
+	Subunion 0:
+		med 0 [0]={ }
+		med 1 [0]={ }
+		med 2 [1]={ 0 }
+		med 3 [0]={ }
+OK
+MI: preparing mg-levels...OK.
++---+--CHT---------+--------------+--------------+------+----+-+-+------+
+|sd | Initial res  | Target res   | Final res    |Visits|Iter|R|F|Status|
++---+--------------+--------------+--------------+------+----+-+-+------+
+|  0|  3.081111e-15|  3.081111e-15|  5.336746e-16|     2|   3|0|y|  OK  |
++---+--------------+--------------+--------------+------+----+-+-+------+
+  orthomin: quit=1  it=1  R(it)/R(0)=     9.21399158e-08  R(0)=     6.83544806e-02  R(it)=     6.29817609e-09 
+  orthomin: quit=1  it=1  R(it)/R(0)=     1.00749565e-07  R(0)=     2.63743596e-01  R(it)=     2.65720526e-08 
+Filter: K,E,momentum: isolating K from zero=1720
+Filter: K,E,momentum: isolating E from zero=1720
+Min,Max T(new): subd0: min(194676)=293.20000000      , max(83994)=293.20000000      
+Min,Max P(new): subd0: min(83647)=101324.99900596   , max(83336)=101325.00000000   
+MinMax Rho new: subd0: min(83336)=997.56173933      , max(83329)=997.56173933      
+Min,Max V(new): subd0: min(294)=1.22571e-30, max(194406)=9.3472e-28
+Min,Max K(new): subd0: min(83336)=1.00244e-43, max(83647)=1.49471e-06
+Min,Max E(new): subd0: min(195306)=1.92354e-63, max(83647)=6.3334e-06
+MASS FLUXES AT OPENINGS:
+MF=0 AP=2.24376e-27
+================== Tstep=1 ===================
+dt: min dt/dtG(nCV=83500)=0.26 , max dt/dtG(nCV=258950)=14.6   , dtG=0.0016643
+dt: min alphaC=1,  min alphaD=50,  min alphaT=1e+40
+LOG: Neumann[nsd=0]=0
++---+--BG----------+--------------+--------------+------+----+-+-+------+
+|sd | Initial res  | Target res   | Final res    |Visits|Iter|R|F|Status|
++---+--------------+--------------+--------------+------+----+-+-+------+
+|  0|  4.597376e-52|  4.597376e-52|  9.902776e-55|     6|  15|0|y|  OK  |
++---+--------------+--------------+--------------+------+----+-+-+------+
+LOG: Neumann[nsd=0]=0
+LOG: number of a-faces with weighted approximations: 71.5068 percent
+LOG: Rate of a-faces corrected to CUp1st: 11.2091 %
+MP-DISTRIBUTOR: building cv ordering...ok.
+MP-DISTRIBUTOR: building face-ordering...ok.
+Pm[rho_old*vel_new] is used to calculate rhs_DvGr and Mf[]
+Convolutions: 0.0502457% a-faces are skipped (due to sharp bend).
+Conv_fw[] is skipped for 30600 w-faces
+number of critic points=	648
+number of edge points=	1096
+number of arranged faces NF_Strmline=	1744
+*******	alp_u_min(567)=0.000165094	alp_u_max(443)=0.0116615	alp_t_min(211)=0.3591	alp_t_max(17)=0.3591	BL_s_min(11)=0	BL_s_max(11)=0
+LOG: numb_of_convergent=0, numb_of_divergent=0
+Residual of BG = Div(rho*u^k): 
+sd[0](LC=0): L2=9.95127e-28, C[45504]=4.00517e-29
++---+--3M----------+--------------+--------------+------+----+-+-+------+
+|sd | Initial res  | Target res   | Final res    |Visits|Iter|R|F|Status|
++---+--------------+--------------+--------------+------+----+-+-+------+
+|  0|  6.115263e-51|  6.115263e-51|  4.397787e-71|     2|   3|0|y|  OK  |
++---+--------------+--------------+--------------+------+----+-+-+------+
+Min,Max V(new): subd0: min(902)=2.03866e-30, max(205836)=2.0902e-27
+Matrix DvGr: statistics on corrections of a-face approximations
+             min alpha==0.112361 (i=355279)
+                    alpha < 0.2 : 0.317052 per cent
+             0.2 <= alpha < 0.4 : 42.3716         
+             0.4 <= alpha < 0.6 : 19.3982         
+             0.6 <= alpha < 0.8 : 4.69119         
+             0.8 <= alpha       : 2.56941         
+             without correction : 30.6525         
+
+DvGr: iter=0, rhs=(rho^k-rho)*dV/dt + Dv(rho*u^k), max|rhs|=    3.6239596206e-27, ncv=186128
++---+--DVGR--------+--------------+--------------+------+----+-+-+------+
+|sd | Initial res  | Target res   | Final res    |Visits|Iter|R|F|Status|
++---+--------------+--------------+--------------+------+----+-+-+------+
+|  0|  2.866387e-50|  2.866387e-50|  2.813930e-55|     6|  15|0|y|  OK  |
++---+--------------+--------------+--------------+------+----+-+-+------+
+PRESSURE SOLVER: sum_C_dp=0
+dR-REGULARIZATOR: npar=5, count_dR=0
++---+--CHT---------+--------------+--------------+------+----+-+-+------+
+|sd | Initial res  | Target res   | Final res    |Visits|Iter|R|F|Status|
++---+--------------+--------------+--------------+------+----+-+-+------+
+|  0|  3.070585e-15|  3.070585e-15|  5.299276e-16|     2|   3|0|y|  OK  |
++---+--------------+--------------+--------------+------+----+-+-+------+
+  orthomin: quit=1  it=1  R(it)/R(0)=     9.49793037e-09  R(0)=     2.82145349e-02  R(it)=     2.67979688e-10 
+  orthomin: quit=1  it=1  R(it)/R(0)=     1.05913362e-08  R(0)=     2.52430198e-02  R(it)=     2.67357309e-10 
+Filter: K,E,momentum: isolating K from zero=312
+Filter: K,E,momentum: isolating E from zero=1720
+Filter: K,E,momentum: isolating E from infinity=1720
+Min,Max T(new): subd0: min(194676)=293.20000000      , max(85932)=293.20000000      
+Min,Max P(new): subd0: min(83467)=101324.99900947   , max(83336)=101325.00000000   
+MinMax Rho new: subd0: min(83336)=997.56173933      , max(83465)=997.56173933      
+Min,Max V(new): subd0: min(41818)=1.17474e-30, max(194406)=1.83721e-27
+Min,Max K(new): subd0: min(85950)=1.00244e-43, max(83484)=1.48943e-06
+Min,Max E(new): subd0: min(113351)=1.98395e-63, max(194610)=6.32838e-06
+MASS FLUXES AT OPENINGS:
+MF=0 AP=8.9293e-27
+================== Tstep=2 ===================
+dt: min dt/dtG(nCV=83500)=0.26 , max dt/dtG(nCV=258950)=14.6   , dtG=0.00166668
+dt: min alphaC=1,  min alphaD=50,  min alphaT=1e+40
+LOG: Neumann[nsd=0]=0
++---+--BG----------+--------------+--------------+------+----+-+-+------+
+|sd | Initial res  | Target res   | Final res    |Visits|Iter|R|F|Status|
++---+--------------+--------------+--------------+------+----+-+-+------+
+|  0|  6.058319e-52|  6.058319e-52|  1.724744e-54|     6|  15|0|y|  OK  |
++---+--------------+--------------+--------------+------+----+-+-+------+
+LOG: Neumann[nsd=0]=0
+LOG: number of a-faces with weighted approximations: 66.3864 percent
+LOG: Rate of a-faces corrected to CUp1st: 9.63428 %
+MP-DISTRIBUTOR: building cv ordering...ok.
+MP-DISTRIBUTOR: building face-ordering...ok.
+Pm[rho_old*vel_new] is used to calculate rhs_DvGr and Mf[]
+Convolutions: 0.0502457% a-faces are skipped (due to sharp bend).
+Conv_fw[] is skipped for 30600 w-faces
+number of critic points=	0
+number of edge points=	1744
+number of arranged faces NF_Strmline=	1744
+***partial_ordering_of_w_faces*** 	 i_glob=	0	sorted faces=	1744	cyclic faces	0
+*******	alp_u_min(567)=0.000165094	alp_u_max(443)=0.0116615	alp_t_min(927)=0.3591	alp_t_max(17)=0.3591	BL_s_min(880)=0	BL_s_max(880)=0
+LOG: numb_of_convergent=0, numb_of_divergent=0
+Residual of BG = Div(rho*u^k): 
+sd[0](LC=0): L2=1.3133e-27, C[185568]=2.7885e-29
++---+--3M----------+--------------+--------------+------+----+-+-+------+
+|sd | Initial res  | Target res   | Final res    |Visits|Iter|R|F|Status|
++---+--------------+--------------+--------------+------+----+-+-+------+
+|  0|  5.933147e-51|  5.933147e-51|  3.422008e-71|     2|   3|0|y|  OK  |
++---+--------------+--------------+--------------+------+----+-+-+------+
+Min,Max V(new): subd0: min(98637)=1.58178e-30, max(194406)=2.67538e-27
+Matrix DvGr: statistics on corrections of a-face approximations
+             min alpha==0.123233 (i=355330)
+                    alpha < 0.2 : 0.444923 per cent
+             0.2 <= alpha < 0.4 : 41.103         
+             0.4 <= alpha < 0.6 : 14.3586         
+             0.6 <= alpha < 0.8 : 4.58938         
+             0.8 <= alpha       : 2.43498         
+             without correction : 37.069         
+
+DvGr: iter=0, rhs=(rho^k-rho)*dV/dt + Dv(rho*u^k), max|rhs|=    3.7380068265e-27, ncv=64658
++---+--DVGR--------+--------------+--------------+------+----+-+-+------+
+|sd | Initial res  | Target res   | Final res    |Visits|Iter|R|F|Status|
++---+--------------+--------------+--------------+------+----+-+-+------+
+|  0|  2.800247e-50|  2.800247e-50|  1.272960e-55|     6|  15|0|y|  OK  |
++---+--------------+--------------+--------------+------+----+-+-+------+
+PRESSURE SOLVER: sum_C_dp=0
+dR-REGULARIZATOR: npar=5, count_dR=0
++---+--CHT---------+--------------+--------------+------+----+-+-+------+
+|sd | Initial res  | Target res   | Final res    |Visits|Iter|R|F|Status|
++---+--------------+--------------+--------------+------+----+-+-+------+
+|  0|  3.087986e-15|  3.087986e-15|  5.318975e-16|     2|   3|0|y|  OK  |
++---+--------------+--------------+--------------+------+----+-+-+------+
+  orthomin: quit=1  it=1  R(it)/R(0)=     9.58657491e-09  R(0)=     2.78155413e-02  R(it)=     2.66655771e-10 
+  orthomin: quit=1  it=1  R(it)/R(0)=     1.13308702e-08  R(0)=     2.25861809e-02  R(it)=     2.55921084e-10 
+Filter: K,E,momentum: isolating K from zero=360
+Filter: K,E,momentum: isolating E from zero=1720
+Filter: K,E,momentum: isolating E from infinity=1672
+Min,Max T(new): subd0: min(224266)=293.20000000      , max(85932)=293.20000000      
+Min,Max P(new): subd0: min(83467)=101324.99901299   , max(83336)=101325.00000000   
+MinMax Rho new: subd0: min(83336)=997.56173933      , max(83329)=997.56173933      
+Min,Max V(new): subd0: min(3874)=2.5111e-30, max(194406)=2.69513e-27
+Min,Max K(new): subd0: min(85950)=1.00244e-43, max(83484)=1.48414e-06
+Min,Max E(new): subd0: min(113351)=1.98395e-63, max(194610)=6.3234e-06
+MASS FLUXES AT OPENINGS:
+MF=0 AP=2.29074e-27
+================== Tstep=3 ===================
+dt: min dt/dtG(nCV=83500)=0.26 , max dt/dtG(nCV=258950)=14.6   , dtG=0.00169242
+dt: min alphaC=1,  min alphaD=50,  min alphaT=1e+40
+LOG: Neumann[nsd=0]=0
++---+--BG----------+--------------+--------------+------+----+-+-+------+
+|sd | Initial res  | Target res   | Final res    |Visits|Iter|R|F|Status|
++---+--------------+--------------+--------------+------+----+-+-+------+
+|  0|  6.369998e-52|  6.369998e-52|  1.874830e-54|     6|  15|0|y|  OK  |
++---+--------------+--------------+--------------+------+----+-+-+------+
+LOG: Neumann[nsd=0]=0
+LOG: number of a-faces with weighted approximations: 67.9299 percent
+LOG: Rate of a-faces corrected to CUp1st: 9.85036 %
+PERTURBATIONS: kf_ratio=    0.0000e+00
+Pm[rho_old*vel_new] is used to calculate rhs_DvGr and Mf[]
+Convolutions: 0.0502457% a-faces are skipped (due to sharp bend).
+Conv_fw[] is skipped for 30600 w-faces
+number of critic points=	0
+number of edge points=	1744
+number of arranged faces NF_Strmline=	1744
+***partial_ordering_of_w_faces*** 	 i_glob=	0	sorted faces=	1744	cyclic faces	0
+*******	alp_u_min(585)=0.000165094	alp_u_max(443)=0.0116615	alp_t_min(937)=0.3591	alp_t_max(304)=0.3591	BL_s_min(880)=0	BL_s_max(880)=0
+LOG: numb_of_convergent=0, numb_of_divergent=0
+Residual of BG = Div(rho*u^k): 
+sd[0](LC=0): L2=1.36924e-27, C[353461]=3.3439e-29
++---+--3M----------+--------------+--------------+------+----+-+-+------+
+|sd | Initial res  | Target res   | Final res    |Visits|Iter|R|F|Status|
++---+--------------+--------------+--------------+------+----+-+-+------+
+|  0|  5.726809e-51|  5.726809e-51|  3.006606e-71|     2|   3|0|y|  OK  |
++---+--------------+--------------+--------------+------+----+-+-+------+
+Min,Max V(new): subd0: min(262758)=4.50142e-30, max(194406)=3.55665e-27
+Matrix DvGr: statistics on corrections of a-face approximations
+             min alpha==0.108049 (i=355286)
+                    alpha < 0.2 : 0.431048 per cent
+             0.2 <= alpha < 0.4 : 41.8443         
+             0.4 <= alpha < 0.6 : 14.7258         
+             0.6 <= alpha < 0.8 : 4.65875         
+             0.8 <= alpha       : 2.48336         
+             without correction : 35.8568         
+
+DvGr: iter=0, rhs=(rho^k-rho)*dV/dt + Dv(rho*u^k), max|rhs|=    3.6623129987e-27, ncv=70771
++---+--DVGR--------+--------------+--------------+------+----+-+-+------+
+|sd | Initial res  | Target res   | Final res    |Visits|Iter|R|F|Status|
++---+--------------+--------------+--------------+------+----+-+-+------+
+|  0|  2.686342e-50|  2.686342e-50|  1.004438e-55|     6|  15|0|y|  OK  |
++---+--------------+--------------+--------------+------+----+-+-+------+
+PRESSURE SOLVER: sum_C_dp=0
+dR-REGULARIZATOR: npar=5, count_dR=0
++---+--CHT---------+--------------+--------------+------+----+-+-+------+
+|sd | Initial res  | Target res   | Final res    |Visits|Iter|R|F|Status|
++---+--------------+--------------+--------------+------+----+-+-+------+
+|  0|  2.989015e-15|  2.989015e-15|  5.135684e-16|     2|   3|0|y|  OK  |
++---+--------------+--------------+--------------+------+----+-+-+------+
+  orthomin: quit=1  it=1  R(it)/R(0)=     9.94234093e-09  R(0)=     2.77189923e-02  R(it)=     2.75591672e-10 
+  orthomin: quit=1  it=1  R(it)/R(0)=     1.24962480e-08  R(0)=     2.03956210e-02  R(it)=     2.54868739e-10 
+Filter: K,E,momentum: isolating K from zero=360
+Filter: K,E,momentum: isolating E from zero=1720
+Filter: K,E,momentum: isolating E from infinity=1720
+Min,Max T(new): subd0: min(224266)=293.20000000      , max(85932)=293.20000000      
+Min,Max P(new): subd0: min(83484)=101324.99901655   , max(83336)=101325.00000000   
+MinMax Rho new: subd0: min(83336)=997.56173933      , max(83469)=997.56173933      
+Min,Max V(new): subd0: min(293081)=2.56611e-30, max(194406)=3.53871e-27
+Min,Max K(new): subd0: min(85950)=1.00244e-43, max(83484)=1.47878e-06
+Min,Max E(new): subd0: min(113351)=1.98395e-63, max(194610)=6.3184e-06
+MASS FLUXES AT OPENINGS:
+MF=0 AP=-1.53387e-27
+================== Tstep=4 ===================
+dt: min dt/dtG(nCV=83500)=0.26 , max dt/dtG(nCV=258950)=14.6   , dtG=0.00188687
+dt: min alphaC=1,  min alphaD=50,  min alphaT=1e+40
+LOG: Neumann[nsd=0]=0
++---+--BG----------+--------------+--------------+------+----+-+-+------+
+|sd | Initial res  | Target res   | Final res    |Visits|Iter|R|F|Status|
++---+--------------+--------------+--------------+------+----+-+-+------+
+|  0|  7.258668e-52|  7.258668e-52|  2.180907e-54|     6|  15|0|y|  OK  |
++---+--------------+--------------+--------------+------+----+-+-+------+
+LOG: Neumann[nsd=0]=0
+LOG: number of a-faces with weighted approximations: 68.2605 percent
+LOG: Rate of a-faces corrected to CUp1st: 9.83404 %
+PERTURBATIONS: kf_ratio=    3.4763e-01
+MP-DISTRIBUTOR: building cv ordering...ok.
+MP-DISTRIBUTOR: building face-ordering...ok.
+Pm[rho_old*vel_new] is used to calculate rhs_DvGr and Mf[]
+Convolutions: 0.0502457% a-faces are skipped (due to sharp bend).
+Conv_fw[] is skipped for 30600 w-faces
+number of critic points=	0
+number of edge points=	1744
+number of arranged faces NF_Strmline=	1744
+***partial_ordering_of_w_faces*** 	 i_glob=	0	sorted faces=	1744	cyclic faces	0
+*******	alp_u_min(585)=0.000165094	alp_u_max(443)=0.0116615	alp_t_min(937)=0.3591	alp_t_max(304)=0.3591	BL_s_min(880)=0	BL_s_max(880)=0
+LOG: numb_of_convergent=0, numb_of_divergent=0
+Residual of BG = Div(rho*u^k): 
+sd[0](LC=0): L2=1.47679e-27, C[44660]=2.89224e-29
++---+--3M----------+--------------+--------------+------+----+-+-+------+
+|sd | Initial res  | Target res   | Final res    |Visits|Iter|R|F|Status|
++---+--------------+--------------+--------------+------+----+-+-+------+
+|  0|  5.671682e-51|  5.671682e-51|  5.203320e-71|     2|   3|0|y|  OK  |
++---+--------------+--------------+--------------+------+----+-+-+------+
+Min,Max V(new): subd0: min(25508)=1.86027e-30, max(194406)=4.47589e-27
+Matrix DvGr: statistics on corrections of a-face approximations
+             min alpha==0.11006 (i=355314)
+                    alpha < 0.2 : 0.431798 per cent
+             0.2 <= alpha < 0.4 : 42.0909         
+             0.4 <= alpha < 0.6 : 14.555         
+             0.6 <= alpha < 0.8 : 4.65566         
+             0.8 <= alpha       : 2.51617         
+             without correction : 35.7506         
+
+DvGr: iter=0, rhs=(rho^k-rho)*dV/dt + Dv(rho*u^k), max|rhs|=    4.7909183420e-27, ncv=354710
++---+--DVGR--------+--------------+--------------+------+----+-+-+------+
+|sd | Initial res  | Target res   | Final res    |Visits|Iter|R|F|Status|
++---+--------------+--------------+--------------+------+----+-+-+------+
+|  0|  3.236729e-50|  3.236729e-50|  1.243081e-55|     6|  15|0|y|  OK  |
++---+--------------+--------------+--------------+------+----+-+-+------+
+PRESSURE SOLVER: sum_C_dp=0
+dR-REGULARIZATOR: npar=5, count_dR=0
++---+--CHT---------+--------------+--------------+------+----+-+-+------+
+|sd | Initial res  | Target res   | Final res    |Visits|Iter|R|F|Status|
++---+--------------+--------------+--------------+------+----+-+-+------+
+|  0|  2.409293e-15|  2.409293e-15|  4.106778e-16|     2|   3|0|y|  OK  |
++---+--------------+--------------+--------------+------+----+-+-+------+
+  orthomin: quit=1  it=1  R(it)/R(0)=     1.23858652e-08  R(0)=     2.96022168e-02  R(it)=     3.66649067e-10 
+  orthomin: quit=1  it=1  R(it)/R(0)=     1.66547344e-08  R(0)=     1.97623650e-02  R(it)=     3.29136941e-10 
+Filter: K,E,momentum: isolating K from zero=360
+Filter: K,E,momentum: isolating E from zero=1720
+Filter: K,E,momentum: isolating E from infinity=1720
+Min,Max T(new): subd0: min(83645)=293.20000000      , max(85932)=293.20000000      
+Min,Max P(new): subd0: min(83484)=101324.99902051   , max(83336)=101325.00000000   
+MinMax Rho new: subd0: min(83336)=997.56173933      , max(83465)=997.56173933      
+Min,Max V(new): subd0: min(101099)=1.99712e-30, max(194406)=4.54038e-27
+Min,Max K(new): subd0: min(85950)=1.00244e-43, max(83484)=1.47283e-06
+Min,Max E(new): subd0: min(113351)=1.98395e-63, max(194610)=6.31291e-06
+MASS FLUXES AT OPENINGS:
+MF=0 AP=-2.78081e-27
+Interpolator cache (0 thread): total calls 400, optimised calls 108 (27.0 %)
+Interpolator cache (1 thread): total calls 400, optimised calls 62 (15.5 %)
+Interpolator cache (2 thread): total calls 400, optimised calls 101 (25.3 %)
+Interpolator cache (3 thread): total calls 400, optimised calls 111 (27.8 %)
+Interpolator cache (4 thread): total calls 688, optimised calls 187 (27.2 %)
+Interpolator cache (5 thread): total calls 400, optimised calls 73 (18.3 %)
+Interpolator cache (6 thread): total calls 400, optimised calls 18 (4.5 %)
+Interpolator cache (7 thread): total calls 400, optimised calls 22 (5.5 %)
+IT:5 dm/m=4.96318e-15 dK=0.892745
+      CPU: s/step:4.84 run:4.976 s/step/cv:1.343e-05 3M:0(0/cv) PS:1.12(3.11e-06/cv)
+      CF=0.00e+00 min dt/dtG=0.26 , max dt/dtG=14.6   , dtG=0.00188687
+1: Per Calculate_inc: CPU=4.84s;   CPU/NC_Fluid=1.34306e-05;   CPU/NC_Total=1.34065e-05
+2: Per Iteration:     CPU=5.089s;   CPU/NC_Fluid=1.41215e-05;   CPU/NC_Total=1.40962e-05
+================== Tstep=5 ===================
+dt: min dt/dtG(nCV=83500)=0.26 , max dt/dtG(nCV=258950)=14.6   , dtG=0.0049856
+dt: min alphaC=1.5,  min alphaD=75,  min alphaT=1e+40
+LOG: Neumann[nsd=0]=0
++---+--BG----------+--------------+--------------+------+----+-+-+------+
+|sd | Initial res  | Target res   | Final res    |Visits|Iter|R|F|Status|
++---+--------------+--------------+--------------+------+----+-+-+------+
+|  0|  9.188690e-52|  9.188690e-52|  2.756211e-54|     6|  15|0|y|  OK  |
++---+--------------+--------------+--------------+------+----+-+-+------+
+LOG: Neumann[nsd=0]=0
+LOG: number of a-faces with weighted approximations: 68.7371 percent
+LOG: Rate of a-faces corrected to CUp1st: 9.92095 %
+PERTURBATIONS: kf_ratio=    3.2048e-01
+MP-DISTRIBUTOR: building cv ordering...ok.
+MP-DISTRIBUTOR: building face-ordering...ok.
+Pm[rho_old*vel_new] is used to calculate rhs_DvGr and Mf[]
+Convolutions: 0.0502457% a-faces are skipped (due to sharp bend).
+Conv_fw[] is skipped for 30600 w-faces
+number of critic points=	0
+number of edge points=	1744
+number of arranged faces NF_Strmline=	1744
+***partial_ordering_of_w_faces*** 	 i_glob=	0	sorted faces=	1744	cyclic faces	0
+*******	alp_u_min(585)=0.000165094	alp_u_max(443)=0.0116615	alp_t_min(807)=0.3591	alp_t_max(304)=0.3591	BL_s_min(880)=0	BL_s_max(880)=0
+LOG: numb_of_convergent=0, numb_of_divergent=0
+Residual of BG = Div(rho*u^k): 
+sd[0](LC=0): L2=1.66018e-27, C[353473]=3.81493e-29
++---+--3M----------+--------------+--------------+------+----+-+-+------+
+|sd | Initial res  | Target res   | Final res    |Visits|Iter|R|F|Status|
++---+--------------+--------------+--------------+------+----+-+-+------+
+|  0|  5.600262e-51|  5.600262e-51|  1.595880e-68|     2|   3|0|y|  OK  |
++---+--------------+--------------+--------------+------+----+-+-+------+
+Min,Max V(new): subd0: min(356667)=3.66628e-30, max(246724)=7.51338e-27
+Matrix DvGr: statistics on corrections of a-face approximations
+             min alpha==0.122747 (i=355283)
+                    alpha < 0.2 : 0.430767 per cent
+             0.2 <= alpha < 0.4 : 42.3871         
+             0.4 <= alpha < 0.6 : 14.6849         
+             0.6 <= alpha < 0.8 : 4.72522         
+             0.8 <= alpha       : 2.48336         
+             without correction : 35.2887         
+
+DvGr: iter=0, rhs=(rho^k-rho)*dV/dt + Dv(rho*u^k), max|rhs|=    1.1176522551e-26, ncv=102313
++---+--DVGR--------+--------------+--------------+------+----+-+-+------+
+|sd | Initial res  | Target res   | Final res    |Visits|Iter|R|F|Status|
++---+--------------+--------------+--------------+------+----+-+-+------+
+|  0|  1.946989e-49|  1.946989e-49|  7.080145e-55|     6|  15|0|y|  OK  |
++---+--------------+--------------+--------------+------+----+-+-+------+
+PRESSURE SOLVER: sum_C_dp=0
+dR-REGULARIZATOR: npar=5, count_dR=0
++---+--CHT---------+--------------+--------------+------+----+-+-+------+
+|sd | Initial res  | Target res   | Final res    |Visits|Iter|R|F|Status|
++---+--------------+--------------+--------------+------+----+-+-+------+
+|  0|  3.488133e-16|  3.488133e-16|  5.833457e-17|     2|   3|0|y|  OK  |
++---+--------------+--------------+--------------+------+----+-+-+------+
+  orthomin: quit=1  it=1  R(it)/R(0)=     8.08820692e-08  R(0)=     5.38095133e-02  R(it)=     4.35222478e-09 
+  orthomin: quit=1  it=1  R(it)/R(0)=     1.21989948e-07  R(0)=     3.40306378e-02  R(it)=     4.15139574e-09 
+Filter: K,E,momentum: isolating K from zero=360
+Filter: K,E,momentum: isolating E from zero=1720
+Filter: K,E,momentum: isolating E from infinity=1720
+Min,Max T(new): subd0: min(194612)=293.20000000      , max(85932)=293.20000000      
+Min,Max P(new): subd0: min(83484)=101324.99903031   , max(83336)=101325.00000000   
+MinMax Rho new: subd0: min(83336)=997.56173933      , max(83465)=997.56173933      
+Min,Max V(new): subd0: min(200060)=3.95916e-30, max(194406)=6.85169e-27
+Min,Max K(new): subd0: min(85950)=1.00244e-43, max(83484)=1.45808e-06
+Min,Max E(new): subd0: min(113351)=1.98395e-63, max(194610)=6.29936e-06
+MASS FLUXES AT OPENINGS:
+MF=0 AP=-5.06334e-27
+================== Tstep=6 ===================
+dt: min dt/dtG(nCV=83493)=0.26 , max dt/dtG(nCV=258950)=14.7   , dtG=0.020904
+dt: min alphaC=1.5,  min alphaD=75,  min alphaT=1e+40
+LOG: Neumann[nsd=0]=0
++---+--BG----------+--------------+--------------+------+----+-+-+------+
+|sd | Initial res  | Target res   | Final res    |Visits|Iter|R|F|Status|
++---+--------------+--------------+--------------+------+----+-+-+------+
+|  0|  5.072205e-51|  5.072205e-51|  1.456245e-53|     6|  15|0|y|  OK  |
++---+--------------+--------------+--------------+------+----+-+-+------+
+LOG: Neumann[nsd=0]=0
+LOG: number of a-faces with weighted approximations: 68.754 percent
+LOG: Rate of a-faces corrected to CUp1st: 10.0127 %
+PERTURBATIONS: kf_ratio=    4.1739e-01
+MP-DISTRIBUTOR: building cv ordering...ok.
+MP-DISTRIBUTOR: building face-ordering...ok.
+Pm[rho_old*vel_new] is used to calculate rhs_DvGr and Mf[]
+Convolutions: 0.0502457% a-faces are skipped (due to sharp bend).
+Conv_fw[] is skipped for 30600 w-faces
+number of critic points=	0
+number of edge points=	1744
+number of arranged faces NF_Strmline=	1744
+***partial_ordering_of_w_faces*** 	 i_glob=	0	sorted faces=	1744	cyclic faces	0
+*******	alp_u_min(585)=0.000165094	alp_u_max(443)=0.0116615	alp_t_min(937)=0.3591	alp_t_max(304)=0.3591	BL_s_min(880)=0	BL_s_max(880)=0
+LOG: numb_of_convergent=0, numb_of_divergent=0
+Residual of BG = Div(rho*u^k): 
+sd[0](LC=0): L2=3.81608e-27, C[44556]=9.99306e-29
++---+--3M----------+--------------+--------------+------+----+-+-+------+
+|sd | Initial res  | Target res   | Final res    |Visits|Iter|R|F|Status|
++---+--------------+--------------+--------------+------+----+-+-+------+
+|  0|  5.513487e-51|  5.513487e-51|  8.461732e-65|     2|   3|0|y|  OK  |
++---+--------------+--------------+--------------+------+----+-+-+------+
+Min,Max V(new): subd0: min(121655)=2.05928e-29, max(191892)=2.44221e-26
+Matrix DvGr: statistics on corrections of a-face approximations
+             min alpha==0.110904 (i=355286)
+                    alpha < 0.2 : 0.412393 per cent
+             0.2 <= alpha < 0.4 : 42.5429         
+             0.4 <= alpha < 0.6 : 14.7176         
+             0.6 <= alpha < 0.8 : 4.69091         
+             0.8 <= alpha       : 2.52264         
+             without correction : 35.1136         
+
+DvGr: iter=0, rhs=(rho^k-rho)*dV/dt + Dv(rho*u^k), max|rhs|=    4.4408083740e-26, ncv=353739
++---+--DVGR--------+--------------+--------------+------+----+-+-+------+
+|sd | Initial res  | Target res   | Final res    |Visits|Iter|R|F|Status|
++---+--------------+--------------+--------------+------+----+-+-+------+
+|  0|  3.218857e-48|  3.218857e-48|  1.124119e-53|     6|  15|0|y|  OK  |
++---+--------------+--------------+--------------+------+----+-+-+------+
+PRESSURE SOLVER: sum_C_dp=0
+dR-REGULARIZATOR: npar=5, count_dR=0
++---+--CHT---------+--------------+--------------+------+----+-+-+------+
+|sd | Initial res  | Target res   | Final res    |Visits|Iter|R|F|Status|
++---+--------------+--------------+--------------+------+----+-+-+------+
+|  0|  2.492155e-17|  2.492155e-17|  3.372498e-18|     2|   3|0|y|  OK  |
++---+--------------+--------------+--------------+------+----+-+-+------+
+  orthomin: quit=1  it=1  R(it)/R(0)=     1.01349095e-06  R(0)=     8.76060204e-02  R(it)=     8.87879090e-08 
+  orthomin: quit=1  it=1  R(it)/R(0)=     1.95317096e-06  R(0)=     5.07895750e-02  R(it)=     9.92007230e-08 
+Filter: K,E,momentum: isolating K from zero=360
+Filter: K,E,momentum: isolating E from zero=1720
+Filter: K,E,momentum: isolating E from infinity=2664
+Min,Max T(new): subd0: min(194612)=293.20000000      , max(85933)=293.20000000      
+Min,Max P(new): subd0: min(224264)=101324.99906153   , max(83344)=101325.00000000   
+MinMax Rho new: subd0: min(85932)=997.56173933      , max(83465)=997.56173933      
+Min,Max V(new): subd0: min(246672)=2.63153e-29, max(194406)=1.7203e-26
+Min,Max K(new): subd0: min(85951)=1.00244e-43, max(224266)=1.41115e-06
+Min,Max E(new): subd0: min(113351)=1.98395e-63, max(224266)=6.25658e-06
+MASS FLUXES AT OPENINGS:
+MF=0 AP=-1.42032e-26
+================== Tstep=7 ===================
+dt: min dt/dtG(nCV=111238)=0.26 , max dt/dtG(nCV=258950)=14.7   , dtG=0.137956
+dt: min alphaC=1.5,  min alphaD=75,  min alphaT=1e+40
+LOG: Neumann[nsd=0]=0
++---+--BG----------+--------------+--------------+------+----+-+-+------+
+|sd | Initial res  | Target res   | Final res    |Visits|Iter|R|F|Status|
++---+--------------+--------------+--------------+------+----+-+-+------+
+|  0|  7.567802e-50|  7.567802e-50|  2.215654e-52|     6|  15|0|y|  OK  |
++---+--------------+--------------+--------------+------+----+-+-+------+
+LOG: Neumann[nsd=0]=0
+LOG: number of a-faces with weighted approximations: 68.4858 percent
+LOG: Rate of a-faces corrected to CUp1st: 10.0743 %
+PERTURBATIONS: kf_ratio=    5.2932e-01
+MP-DISTRIBUTOR: building cv ordering...ok.
+MP-DISTRIBUTOR: building face-ordering...ok.
+Pm[rho_old*vel_new] is used to calculate rhs_DvGr and Mf[]
+Convolutions: 0.0502457% a-faces are skipped (due to sharp bend).
+Conv_fw[] is skipped for 30600 w-faces
+number of critic points=	0
+number of edge points=	1744
+number of arranged faces NF_Strmline=	1744
+***partial_ordering_of_w_faces*** 	 i_glob=	0	sorted faces=	1744	cyclic faces	0
+*******	alp_u_min(585)=0.000165094	alp_u_max(443)=0.0116615	alp_t_min(756)=0.3591	alp_t_max(306)=0.3591	BL_s_min(880)=0	BL_s_max(880)=0
+LOG: numb_of_convergent=1, numb_of_divergent=1
+Residual of BG = Div(rho*u^k): 
+sd[0](LC=0): L2=1.48851e-26, C[107887]=4.11251e-28
++---+--3M----------+--------------+--------------+------+----+-+-+------+
+|sd | Initial res  | Target res   | Final res    |Visits|Iter|R|F|Status|
++---+--------------+--------------+--------------+------+----+-+-+------+
+|  0|  5.667948e-51|  5.667948e-51|  4.306992e-60|     2|   3|0|y|  OK  |
++---+--------------+--------------+--------------+------+----+-+-+------+
+Min,Max V(new): subd0: min(321177)=1.57544e-28, max(96000)=1.2726e-25
+Matrix DvGr: statistics on corrections of a-face approximations
+             min alpha==0.109661 (i=355286)
+                    alpha < 0.2 : 0.420736 per cent
+             0.2 <= alpha < 0.4 : 42.3759         
+             0.4 <= alpha < 0.6 : 14.8766         
+             0.6 <= alpha < 0.8 : 4.70234         
+             0.8 <= alpha       : 2.58432         
+             without correction : 35.0401         
+
+DvGr: iter=0, rhs=(rho^k-rho)*dV/dt + Dv(rho*u^k), max|rhs|=    2.0671595243e-25, ncv=62594
++---+--DVGR--------+--------------+--------------+------+----+-+-+------+
+|sd | Initial res  | Target res   | Final res    |Visits|Iter|R|F|Status|
++---+--------------+--------------+--------------+------+----+-+-+------+
+|  0|  1.324056e-46|  1.324056e-46|  4.418084e-52|     6|  15|0|y|  OK  |
++---+--------------+--------------+--------------+------+----+-+-+------+
+PRESSURE SOLVER: sum_C_dp=0
+dR-REGULARIZATOR: npar=5, count_dR=0
++---+--CHT---------+--------------+--------------+------+----+-+-+------+
+|sd | Initial res  | Target res   | Final res    |Visits|Iter|R|F|Status|
++---+--------------+--------------+--------------+------+----+-+-+------+
+|  0|  4.853998e-18|  4.853998e-18|  7.812804e-20|     2|   3|0|y|  OK  |
++---+--------------+--------------+--------------+------+----+-+-+------+
+  orthomin: quit=1  it=1  R(it)/R(0)=     7.70385087e-06  R(0)=     9.85063362e-02  R(it)=     7.58878124e-07 
+  orthomin: quit=1  it=1  R(it)/R(0)=     2.11196371e-05  R(0)=     4.48049631e-02  R(it)=     9.46264562e-07 
+Filter: K,E,momentum: isolating K from zero=360
+Filter: K,E,momentum: isolating E from zero=1720
+Filter: K,E,momentum: isolating E from infinity=102255
+Min,Max T(new): subd0: min(224047)=293.20000000      , max(113203)=293.20000000      
+Min,Max P(new): subd0: min(224370)=101324.99913420   , max(83355)=101325.00000000   
+MinMax Rho new: subd0: min(85933)=997.56173933      , max(83647)=997.56173933      
+Min,Max V(new): subd0: min(237083)=9.24922e-29, max(194406)=7.57448e-26
+Min,Max K(new): subd0: min(85978)=1.00244e-43, max(224370)=1.30188e-06
+Min,Max E(new): subd0: min(113351)=1.98395e-63, max(194730)=6.16182e-06
+MASS FLUXES AT OPENINGS:
+MF=0 AP=-3.06585e-26
+================== Tstep=8 ===================
+dt: min dt/dtG(nCV=111238)=0.25 , max dt/dtG(nCV=258950)=14.9   , dtG=0.968912
+dt: min alphaC=1.5,  min alphaD=75,  min alphaT=1e+40
+LOG: Neumann[nsd=0]=0
++---+--BG----------+--------------+--------------+------+----+-+-+------+
+|sd | Initial res  | Target res   | Final res    |Visits|Iter|R|F|Status|
++---+--------------+--------------+--------------+------+----+-+-+------+
+|  0|  2.993550e-48|  2.993550e-48|  8.779551e-51|     6|  15|0|y|  OK  |
++---+--------------+--------------+--------------+------+----+-+-+------+
+LOG: Neumann[nsd=0]=0
+LOG: number of a-faces with weighted approximations: 68.1281 percent
+LOG: Rate of a-faces corrected to CUp1st: 10.0279 %
+PERTURBATIONS: kf_ratio=    5.9612e-01
+MP-DISTRIBUTOR: building cv ordering...ok.
+MP-DISTRIBUTOR: building face-ordering...ok.
+Pm[rho_old*vel_new] is used to calculate rhs_DvGr and Mf[]
+Convolutions: 0.0502457% a-faces are skipped (due to sharp bend).
+Conv_fw[] is skipped for 30600 w-faces
+number of critic points=	0
+number of edge points=	1744
+number of arranged faces NF_Strmline=	1744
+***partial_ordering_of_w_faces*** 	 i_glob=	0	sorted faces=	1744	cyclic faces	0
+*******	alp_u_min(585)=0.000165094	alp_u_max(443)=0.0116615	alp_t_min(756)=0.3591	alp_t_max(369)=0.3591	BL_s_min(880)=0	BL_s_max(880)=0
+LOG: numb_of_convergent=0, numb_of_divergent=0
+Residual of BG = Div(rho*u^k): 
+sd[0](LC=0): L2=9.36993e-26, C[44715]=2.20359e-27
++---+--3M----------+--------------+--------------+------+----+-+-+------+
+|sd | Initial res  | Target res   | Final res    |Visits|Iter|R|F|Status|
++---+--------------+--------------+--------------+------+----+-+-+------+
+|  0|  5.668394e-51|  5.668394e-51|  4.408712e-56|     2|   3|0|y|  OK  |
++---+--------------+--------------+--------------+------+----+-+-+------+
+Min,Max V(new): subd0: min(84258)=3.87342e-28, max(75821)=6.34726e-25
+Matrix DvGr: statistics on corrections of a-face approximations
+             min alpha==0.111821 (i=355287)
+                    alpha < 0.2 : 0.41108 per cent
+             0.2 <= alpha < 0.4 : 42.2182         
+             0.4 <= alpha < 0.6 : 14.6986         
+             0.6 <= alpha < 0.8 : 4.73628         
+             0.8 <= alpha       : 2.57551         
+             without correction : 35.3604         
+
+DvGr: iter=0, rhs=(rho^k-rho)*dV/dt + Dv(rho*u^k), max|rhs|=    1.4825434886e-24, ncv=337871
++---+--DVGR--------+--------------+--------------+------+----+-+-+------+
+|sd | Initial res  | Target res   | Final res    |Visits|Iter|R|F|Status|
++---+--------------+--------------+--------------+------+----+-+-+------+
+|  0|  4.192621e-45|  4.192621e-45|  2.032628e-50|     6|  15|0|y|  OK  |
++---+--------------+--------------+--------------+------+----+-+-+------+
+PRESSURE SOLVER: sum_C_dp=0
+dR-REGULARIZATOR: npar=5, count_dR=0
++---+--CHT---------+--------------+--------------+------+----+-+-+------+
+|sd | Initial res  | Target res   | Final res    |Visits|Iter|R|F|Status|
++---+--------------+--------------+--------------+------+----+-+-+------+
+|  0|  2.948779e-18|  2.948779e-18|  1.909988e-21|     2|   3|0|y|  OK  |
++---+--------------+--------------+--------------+------+----+-+-+------+
+  orthomin: quit=1  it=1  R(it)/R(0)=     3.18605933e-05  R(0)=     2.55946339e-02  R(it)=     8.15460222e-07 
+Filter: K,E,momentum: isolating K from zero=360
+Filter: K,E,momentum: isolating E from zero=1720
+Filter: K,E,momentum: isolating E from infinity=295171
+Finishing. Please wait...
+Min,Max T(new): subd0: min(194727)=293.20000000      , max(113203)=293.20000000      
+Min,Max P(new): subd0: min(224370)=101324.99920812   , max(83344)=101325.00000000   
+MinMax Rho new: subd0: min(113203)=997.56173933      , max(83652)=997.56173933      
+Min,Max V(new): subd0: min(224044)=6.80627e-28, max(178922)=3.01136e-25
+Min,Max K(new): subd0: min(192018)=1.00244e-43, max(224370)=1.19073e-06
+Min,Max E(new): subd0: min(113351)=1.98395e-63, max(194730)=6.08282e-06
+MASS FLUXES AT OPENINGS:
+MF=0 AP=-3.3225e-26
+Solver finished at	16.6.2012	18:7:21
+Total CPU time 59 s
+Free memory:
+OK

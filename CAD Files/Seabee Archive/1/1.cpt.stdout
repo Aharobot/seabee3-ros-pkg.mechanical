@@ -1,0 +1,473 @@
+Mesh generation started:	16.6.2012	18:4:2
+Current CPU = 0 sec
+/-----------------------------------------------------------/
+Geometries initialization:
+
+Geometry database loading ...OK
+Number of geometries: 1
+Geometry(0):
+	Fluid..
+	1 Body.
+	Tolerance=1.55042e-005.
+	22 Faces.
+	304 Triangles.
+	22 Reference Faces.
+	304 Reference Triangles.
+	14 Plane surface(s).
+	8 Cylinder surface(s).
+	Preparing structures for Triangles:
+		Hash size: {60, 90, 66}.
+		Mesh size: {60, 90, 66}.
+		Hashing triangles...Ok.
+		Making triangles connectivity...Ok. (0.000 s).
+		Neighbour triangles: 100.00 % (good connect) - 0.00 % (bad connect). Min: 3. Max: 3.
+		Done.
+	Preparing structures for Reference Triangles:
+		Hashing triangles...Ok.
+		Making triangles connectivity...Ok. (0.001 s).
+		Neighbour triangles: Min: 1. Max: 3.
+		Done.
+Last Geometry:
+	Solid.
+
+FacesDB serialize (C:\Users\Michael\Dropbox\Robotics\Seabee 4\1\1.fbd)...OK.
+/-----------------------------------------------------------/
+
+Current CPU = 0 sec
+Flow Simulation 2011 2.0 x64 / 1525 / MESHER ver. FW2007_SP0.build.163.29.03.06 
+
+Project: C:\Users\Michael\Dropbox\Robotics\Seabee 4\1\1.fwp
+Computer name:	MICHAEL-PC
+Operating system:	Windows 7 Service Pack 1 (Build 7601)
+
+SolidWorks 2011 SP2.0
+
+/***************Mesh info************************/
+Mesh dimensions:
+				I[0 ]=60
+				I[1 ]=90
+				I[2 ]=66
+Solver refinement level	I[47]=0
+
+Optimize thin walls resolution   On
+Thin walls parcon                On
+
+Comp. domain size:
+				a[0  ]=-0.625654
+				a[1  ]=0.625654
+				a[2  ]=-0.536754
+				a[3  ]=0.541516
+				a[4  ]=-0.663754
+				a[5  ]=0.663754
+Wall thickness		a[231]=0
+Gap size			a[232]=1
+1. Initial memory allocation.
+3. Base mesh generation.
+Hashing geometries triangles
+	Triangles num=240
+	Triangles box={-0.0889  ,0.0889  ,0  ,0.0047625  ,-0.127  ,0.127  }
+		3d-hash size is 1436076 bytes
+		Making triangles connectivity...Ok. (0.001 s).
+		Neighbour triangles: 100.00 % (good connect) - 0.00 % (bad connect). Min: 3. Max: 3.
+Hashing peculiar surfaces triangles
+Base mesh info------------------
+	2D flag  =0
+	Period   =[0, 0, 0]
+	Nx=60
+		x[0]=-0.625654
+		x[1]=-0.588137
+		x[2]=-0.552363
+		x[3]=-0.518241
+		x[4]=-0.485693
+		x[5]=-0.454648
+		x[6]=-0.425035
+		x[7]=-0.396789
+		x[8]=-0.369847
+		x[9]=-0.344148
+		x[10]=-0.319635
+		x[11]=-0.296253
+		x[12]=-0.273951
+		x[13]=-0.252678
+		x[14]=-0.232387
+		x[15]=-0.213032
+		x[16]=-0.19457
+		x[17]=-0.176961
+		x[18]=-0.160164
+		x[19]=-0.144143
+		x[20]=-0.128861
+		x[21]=-0.114284
+		x[22]=-0.10038
+		x[23]=-0.0871178
+		x[24]=-0.0738554
+		x[25]=-0.0608749
+		x[26]=-0.0481704
+		x[27]=-0.035736
+		x[28]=-0.0235659
+		x[29]=-0.0116545
+		x[30]=3.66137e-006
+		x[31]=0.0116619
+		x[32]=0.0235734
+		x[33]=0.0357437
+		x[34]=0.0481783
+		x[35]=0.060883
+		x[36]=0.0738636
+		x[37]=0.0871262
+		x[38]=0.100389
+		x[39]=0.114293
+		x[40]=0.12887
+		x[41]=0.144153
+		x[42]=0.160175
+		x[43]=0.176972
+		x[44]=0.194582
+		x[45]=0.213044
+		x[46]=0.232399
+		x[47]=0.252691
+		x[48]=0.273965
+		x[49]=0.296268
+		x[50]=0.31965
+		x[51]=0.344163
+		x[52]=0.369863
+		x[53]=0.396806
+		x[54]=0.425053
+		x[55]=0.454667
+		x[56]=0.485713
+		x[57]=0.518262
+		x[58]=0.552385
+		x[59]=0.58816
+		x[60]=0.625654
+	Ny=90
+		y[0]=-0.536754
+		y[1]=-0.502328
+		y[2]=-0.469973
+		y[3]=-0.439555
+		y[4]=-0.410959
+		y[5]=-0.384075
+		y[6]=-0.3588
+		y[7]=-0.335039
+		y[8]=-0.312701
+		y[9]=-0.2917
+		y[10]=-0.271956
+		y[11]=-0.253395
+		y[12]=-0.235945
+		y[13]=-0.21954
+		y[14]=-0.204118
+		y[15]=-0.189618
+		y[16]=-0.175987
+		y[17]=-0.163172
+		y[18]=-0.151125
+		y[19]=-0.139798
+		y[20]=-0.12915
+		y[21]=-0.11914
+		y[22]=-0.109729
+		y[23]=-0.100881
+		y[24]=-0.0925633
+		y[25]=-0.0847435
+		y[26]=-0.0773919
+		y[27]=-0.0704805
+		y[28]=-0.063983
+		y[29]=-0.0578745
+		y[30]=-0.0521317
+		y[31]=-0.0467328
+		y[32]=-0.0416572
+		y[33]=-0.0368855
+		y[34]=-0.0323995
+		y[35]=-0.0281821
+		y[36]=-0.0242172
+		y[37]=-0.0204897
+		y[38]=-0.0169854
+		y[39]=-0.013691
+		y[40]=-0.0105938
+		y[41]=-0.00768202
+		y[42]=-0.00494462
+		y[43]=-0.00237112
+		y[44]=4.82825e-005
+		y[45]=0.00238188
+		y[46]=0.00471551
+		y[47]=0.00704913
+		y[48]=0.00953437
+		y[49]=0.012181
+		y[50]=0.0149996
+		y[51]=0.0180012
+		y[52]=0.0211978
+		y[53]=0.024602
+		y[54]=0.0282273
+		y[55]=0.0320881
+		y[56]=0.0361997
+		y[57]=0.0405783
+		y[58]=0.0452413
+		y[59]=0.0502071
+		y[60]=0.0554955
+		y[61]=0.0611274
+		y[62]=0.0671251
+		y[63]=0.0735123
+		y[64]=0.0803144
+		y[65]=0.0875583
+		y[66]=0.0952727
+		y[67]=0.103488
+		y[68]=0.112237
+		y[69]=0.121555
+		y[70]=0.131477
+		y[71]=0.142044
+		y[72]=0.153297
+		y[73]=0.165282
+		y[74]=0.178044
+		y[75]=0.191636
+		y[76]=0.20611
+		y[77]=0.221525
+		y[78]=0.23794
+		y[79]=0.255422
+		y[80]=0.274039
+		y[81]=0.293866
+		y[82]=0.31498
+		y[83]=0.337466
+		y[84]=0.361412
+		y[85]=0.386914
+		y[86]=0.414072
+		y[87]=0.442993
+		y[88]=0.473794
+		y[89]=0.506595
+		y[90]=0.541516
+	Nz=66
+		z[0]=-0.663754
+		z[1]=-0.626394
+		z[2]=-0.590745
+		z[3]=-0.556721
+		z[4]=-0.524247
+		z[5]=-0.493252
+		z[6]=-0.46367
+		z[7]=-0.435436
+		z[8]=-0.408488
+		z[9]=-0.382768
+		z[10]=-0.35822
+		z[11]=-0.334791
+		z[12]=-0.312429
+		z[13]=-0.291086
+		z[14]=-0.270715
+		z[15]=-0.251273
+		z[16]=-0.232716
+		z[17]=-0.215006
+		z[18]=-0.198102
+		z[19]=-0.181968
+		z[20]=-0.166569
+		z[21]=-0.151872
+		z[22]=-0.137845
+		z[23]=-0.124457
+		z[24]=-0.111069
+		z[25]=-0.0978991
+		z[26]=-0.0849446
+		z[27]=-0.0722016
+		z[28]=-0.0596668
+		z[29]=-0.0473367
+		z[30]=-0.035208
+		z[31]=-0.0232773
+		z[32]=-0.0115415
+		z[33]=2.65753e-006
+		z[34]=0.0115468
+		z[35]=0.0232827
+		z[36]=0.0352135
+		z[37]=0.0473423
+		z[38]=0.0596725
+		z[39]=0.0722074
+		z[40]=0.0849505
+		z[41]=0.0979051
+		z[42]=0.111075
+		z[43]=0.124463
+		z[44]=0.137851
+		z[45]=0.151879
+		z[46]=0.166576
+		z[47]=0.181975
+		z[48]=0.198109
+		z[49]=0.215013
+		z[50]=0.232725
+		z[51]=0.251282
+		z[52]=0.270724
+		z[53]=0.291095
+		z[54]=0.312439
+		z[55]=0.334801
+		z[56]=0.358231
+		z[57]=0.38278
+		z[58]=0.4085
+		z[59]=0.435449
+		z[60]=0.463683
+		z[61]=0.493266
+		z[62]=0.524261
+		z[63]=0.556736
+		z[64]=0.590761
+		z[65]=0.626411
+		z[66]=0.663754
+End of base mesh info---------
+Input_mesh_settings--------------------------------
+Settings 0----------------
+	Scope: GLOBAL
+	Type:	------MESHER_SETTINGS----------
+	RefAllCells           =0
+	RefFluidCells         =0
+	RefPartCells          =0
+	RefSolidCells         =0
+	l_SSFR(Capture crit)  =3
+	l_curv(Curvature crit)=0
+	l_tol(Tolerance crit) =4
+	  k_tol               =0.00119063
+	UseChannelRef         =1
+	  l_NCR               =2
+	  N_gap               =10
+	  Use d_NCR_min       =0
+	  Use d_NCR_max       =0
+	--END_OF_MESHER_SETTINGS-------
+End of input mesh settings-------------------------
+/--------Building geometries-------------------------/
+Building geometry Fluid.0.(0)...
+	Collecting ray's...OK
+	Refining by triangulation...OK
+		Refining by triangulation takes 0.104 s
+	Refining peculiar surfaces...OK
+		0 surfaces refined
+		Refining peculiar surfaces takes 0.001 s
+	Capturing...OK
+	Refining...OK
+	Capturing...OK
+	Base mesh 1 Refining...OK
+Building geometry takes 1.05 s
+Refining channels...
+Refine fluid channels takes		 0.475 s
+volref on openings takes		 0 s
+OK
+Geometry Fluid.0.
+Total		361020
+Partial	1744
+Fluid		358684
+Solid		592
+Bad		0
+
+/-Ray Intersection---------------/ Time	0.010 s
+Calls			17186
+CorrectRay Calls	0
+Building geometries takes 1.555 s
+/----------------------------------------------------/
+/---------PostBuilding geometries--------------------/
+PostBuilding geometries takes 0.009 s
+/----------------------------------------------------/
+mark_bricks_near_vol_refd takes		 0.093 s
+
+/-----------------------------------------------------------/
+OPTIMIZATION OF MESHER MEMORY:
+
+	Process memory usage:                 162.145 MB
+	Geometries number:                    1
+	Optimization:                         off.
+/-----------------------------------------------------------/
+
+/-----------------------------------------------------------/
+MESH-TP (Thin Profiles) format constructor:
+Result:
+	Bricks number:                        361020
+
+	Bricks topology:                      100.00 % (361020 success)
+	                                        0.00 % (0 failed)
+
+	Memory usage:                         3.851 MB
+	Memory usage (per brick):             0.011 KB
+	Construction time:                    0.647 s
+
+	Irregular cases:
+	----------------
+	Corrected x-stack topologies          0
+	Removed points connections            0
+	Failed a-face constructions           0
+	Not found closest point connections   0
+	Failed cv-mergings                    0
+	Failed T-cells capturing              0
+	U-shaped T-head faces                 0
+
+/-----------------------------------------------------------/
+/-----------------------------------------------------------/
+MESH-TP --> BCF-TP format (Iteration 0):
+	BCF cleaner...
+	BCF collector...
+		Different nb-edge parts numbers       0
+	BCF creator...
+	Defect cv detector...
+		Defect cv                0
+	BCF corrector...
+		Side normalizations      0
+		Corrected cv             0
+		Face-a area disbalance   2.49077e-016
+	NB-faces collector...
+	NB-faces conservator...
+		Total occurances         0
+		For bb-faces             0
+		For u-faces              0
+	BCF calculator...
+	Defect cv detector...
+		Defect cv                0
+	Ref-faces data conservator...
+	Defect subdomain detector...
+		1 fluid subdomain(s).
+		0 defect fluid subdomain(s).
+			subdomain 0: number of cv=360428 gi=0 
+		1 solid subdomain(s).
+		0 defect solid subdomain(s).
+			subdomain 0: number of cv=2336 gi=1 
+/-----------------------------------------------------------/
+
+/-----------------------------------------------------------/
+BCF CHECKSUM DATA:
+
+FACE_A Area Sum:   G.Fluid        320.0053061394187900
+FACE_A Area Sum:   G.Solid        0.1100251316332884
+FACE_W Area Sum:                  8.9396858704063522
+FACE_W Nb   Sum:                  129692
+AV Max Disbalance: G.Fluid        1.27369e-016 (cid=172227, cvid=171927)
+AV Max Disbalance: G.Solid        7.40352e-015 (cid=183449, cvid=361860)
+BRICK-CV Volume Disbalance:       1.62283e-016 (cid=171933)
+/-----------------------------------------------------------/
+
+AV max fa count:                  12
+AV max fw count:                  3
+
+/-----------------------------------------------------------/
+MESHER TOPOLOGY DATA:
+
+BRICKS: Total                 361020
+BRICKS: 1-CV                  359276
+BRICKS: 2-CV                  1744
+BRICKS: Bad                   0
+
+CV:     G.Total               362764
+CV:     G.Fluid               360428
+CV:     G.Solid               2336
+
+CV:     G.Fluid Thin Profile  0
+CV:     G.Solid Thin Profile  0
+
+FACE_A: G.Fluid          (af) 1066758 (partially opened 3662)
+FACE_A: G.Solid          (as) 6482 (partially opened 3662,defined by fluid 3662)
+
+FACE_W: G.Total                 32344       Brick/Bound U-Shaped    T-head      T-Leg
+FACE_W: G.Fluid/Solid    (fs_g) 1744        0           0           0           0           
+FACE_W: G.Fluid/Fluid    (ff_g) 0           0           0           0           0           
+FACE_W: G.Solid/Solid    (ss_g) 0           0           0           0           0           
+FACE_W: G.Fluid/External (fe_g) 30600
+FACE_W: G.Solid/External (se_g) 0
+
+MEMORY: Total                   96.542 MB
+MEMORY: Per Brick               0.274 KB
+/-----------------------------------------------------------/
+
+Current CPU = 4 sec
+NC_Total = 361020, NC_Ingas = 358684, NC_Inbod = 592, NC_Part+NC_Unres = 1744 / NC_Unres = 0
+
+Nx=60
+Ny=90
+Nz=66
+Max_RL=3
+12. Saving initial mesh in: C:\Users\Michael\Dropbox\Robotics\Seabee 4\1\1.fld .
+Storing results...
+Estimated CPT size=35.329 MB.
+	write_x_stack_list4()...OK
+OK
+Cleaning memory... OK
+Copying... OK
+Mesh generation normally finished at	16.6.2012	18:4:7
+Mesher CPU = 5 sec
+Mesher is finished at	16.6.2012	18:4:7
